@@ -8,10 +8,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Resume</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -21,6 +22,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="css/new.css" rel="stylesheet">
     <link href="css/resume.css" rel="stylesheet">
 
   </head>
@@ -110,21 +112,6 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Pastry Chef</h3>
-              <div class="subheading mb-3">Nobu</div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2016 - August 2016</span>
-            </div>
-             <h3 class="mb-0">Pastry Sous Chef</h3>
-              <div class="subheading mb-3">Caesars Entertainment</div>
-                          <div class="resume-date text-md-right">
-              <span class="text-primary"> April 2015 - January 2015</span>
-            </div>
-             <h3 class="mb-0">Pastry Chef de Partie</h3>
-              <div class="subheading mb-3">Wynn Resorts</div>
-                          <div class="resume-date text-md-right">
-              <span class="text-primary"> May 2012 - April 2014</span>
-            </div>
               <h4 class="mb-0"> Transferable Skills</h4>
               <p>My work experience and training have exposed me to a versitile set of skills that contribute to my transition as a Web Developer.</p>
               <ul>
@@ -134,6 +121,21 @@
                 <li>Communication</li>
                 <li>Leadership</li>
               </ul>
+              <h3 class="mb-0">Pastry Chef</h3>
+              <div class="subheading mb-3">Nobu - Melbourne, AUS</div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2016 - August 2016</span>
+            </div>
+             <h3 class="mb-0">Pastry Sous Chef</h3>
+              <div class="subheading mb-3">Caesars Entertainment - Las Vegas, Nevada</div>
+                          <div class="resume-date text-md-right">
+              <span class="text-primary"> April 2015 - January 2015</span>
+            </div>
+             <h3 class="mb-0">Pastry Chef de Partie</h3>
+              <div class="subheading mb-3">Wynn Resorts - Las Vegas, Nevada</div>
+                          <div class="resume-date text-md-right">
+              <span class="text-primary"> May 2012 - April 2014</span>
+            </div>
             </div>
           </div>
 
@@ -283,28 +285,33 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-external-link text-warning"></i>
-              <a href="https://jess-trivia-game.herokuapp.com/">Tic-Tac-Toe game</a></li>   
-              <li>
-              <i class="fa-li fa fa-external-link text-warning"></i>
-              <a href="https://mood-recipe.herokuapp.com/"> Food Mood App</a></li>              
-              <li>
-              <i class="fa-li fa fa-external-link text-warning"></i>
-              Trivia Game</li>
-              <li>
-              <i class="fa-li fa fa-external-link text-warning"></i>
-              Smooth-Move- group project</li>
-              <li>
-              <i class="fa-li fa fa-external-link text-warning"></i>
-              Hackathon Collaboration</li>
- 
-          </ul>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" >
+        <h2 class="mb-5">Projects</h2>
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-3 project-container">
+            <h3>Tic Tac Toe</h3>
+            <img class="img-thumbnail" src="img/tictactoe.png" alt="project demo image" width="140" height="140">
+            <p> This project is a game for two players.  It is a tic-tac-toe game with a twist.</p>
+            <p><a class="btn btn-secondary" href="http://js-tictactoe.s3-website-ap-southeast-2.amazonaws.com/">App Demo</a></p>
+            <p><a class="btn btn-secondary" href="https://github.com/CitizenofWorld/wdi13_project1">Github</a></p>
         </div>
+        <div class="col-sm-3 project-container">
+          <h3>Food Mood App</h3>
+          <img class="img-thumbnail" src="img/food-mood.png" alt="project demo image" width="140" height="140">
+          <p> Students were asked to create an app using Ruby and Sinatra.  The app idea is to help the user decide what to cook depending on the mood they are in.  Users can create a profile, log in, save recipe url's to their favorites.</p>
+          <p><a class="btn btn-secondary" href="https://mood-recipe.herokuapp.com/">App Demo</a></p>
+          <p><a class="btn btn-secondary" href="https://github.com/CitizenofWorld/food_mood_app">Github</a></p>
+        </div>
+        <div class="col-sm-3 project-container">
+          <h3> Trivia App</h3>
+          <img class="img-thumbnail" src="img/trivia.png" alt="project demo image" width="140" height="140">
+          <p>  Using Ruby and sinatra this app was made with the idea to help the user decide what to cook depending on the mood they are in.  Users can create a profile, log in, save recipe url's to their favorites.</p>
+          <p><a class="btn btn-secondary" href="https://mood-recipe.herokuapp.com/">App Demo</a></p>
+          <p><a class="btn btn-secondary" href="https://github.com/CitizenofWorld/food_mood_app">Github</a></p>
+        </div>
+      </div>
+     </div>
       </section>
 
     </div>
