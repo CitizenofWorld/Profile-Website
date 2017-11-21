@@ -155,7 +155,8 @@
  
  p {
      margin-top: 0;
-     margin-bottom: 1rem
+     margin-bottom: 1rem;
+ 	 width: 80%;
  }
  
  abbr[data-original-title],
@@ -7429,7 +7430,7 @@
  
  .mr-auto,
  .mx-auto {
-     margin-right: auto
+     margin-right: 0
  }
  
  .mb-auto,
