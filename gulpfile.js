@@ -129,7 +129,7 @@ gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() 
 //deploy to github
 gulp.task('deploy', function(){
   return gulp.src('./dist/**/*')
-    .pipe(deploy());
+    .pipe(pages());
 })
 
 
